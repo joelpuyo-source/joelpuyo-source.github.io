@@ -1,13 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO</title>
+    <title>PORTFOLIO — Joel Puyo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>hOLAAAAA</h1>
 
-    
+    <div class="progress-bar" id="progressBar"></div>
+
+    <nav class="site-nav" id="siteNav">
+        <a href="#sobre-mi">sobre_mi</a>
+        <a href="#projectes">projectes</a>
+        <a href="#contacte">contacte</a>
+    </nav>
+
+    <header class="hero">
+        <h1>Soc, Joel Puyo</h1>
+        <p class="hero__role">Desenvolupament d'aplicacions multiplataforma</p>
+    </header>
+
+    <main>
+
+        <section class="block" id="sobre-mi">
+            <p class="block__tag">// sobre mi</p>
+            <h2>Estudiant de DAM2</h2>
+            <p class="block__text">
+                Soc en Joel i em dedico a desenvolupar aplicacions multiplataforma.
+                Actualment estic cursant el segon curs de Desenvolupament
+                d'Aplicacions Multiplataforma (DAM2) a l'institut INS Baix Camp,
+                on estic ampliant els meus coneixements en programació i disseny
+                d'aplicacions per a diferents sistemes.
+            </p>
+        </section>
+
+        <section class="block block--projects" id="projectes">
+            <p class="block__tag">// projectes</p>
+            <h2>Encara no hi ha res per aquí</h2>
+            <div class="empty-state">
+                <span class="empty-state__marker">&lt;/&gt;</span>
+                <p>
+                    Estic treballant en els meus primers projectes de DAM2.
+                    A mesura que els vagi acabant, els aniré afegint aquí.
+                </p>
+            </div>
+        </section>
+
+        <section class="block block--contact" id="contacte">
+            <p class="block__tag">// contacte</p>
+            <h2>Parlem?</h2>
+            <a class="contact-link" href="mailto:joel.puyo@insbaixcamp.cat">
+                joel.puyo@insbaixcamp.cat
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>Joel Puyo — INS Baix Camp</p>
+    </footer>
+
+    <script src="index.js" defer></script>
 </body>
 </html>
